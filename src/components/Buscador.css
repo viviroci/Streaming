@@ -1,0 +1,21 @@
+.buscador {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .buscador input, .buscador select, .buscador button {
+    margin: 5px 0;
+  }
+  
+  .star-input {
+    width: 200px; /* Ajusta el ancho del input de estrellas según tus necesidades */
+    padding: 5px;
+  }
+  
+  .buscador button {
+    padding: 10px;
+    width: 100px; /* Ajusta el ancho del botón según tus necesidades */
+  }
+  

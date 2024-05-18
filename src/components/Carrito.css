@@ -1,0 +1,23 @@
+.carrito {
+    padding: 20px;
+  }
+  
+  .carrito h2 {
+    margin-bottom: 20px;
+  }
+  
+  .carrito ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .carrito li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .carrito button {
+    margin-top: 20px;
+  }
+  
