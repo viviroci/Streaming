@@ -1,0 +1,31 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Posiciona los elementos en el extremo derecho */
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar__left,
+  .navbar__right {
+    display: flex;
+    align-items: right; /* Alineamos los elementos verticalmente en el centro */
+  }
+  
+  .navbar__link {
+    color: white;
+    text-decoration: none;
+    padding: 0 4rem;
+  }
+  
+  .navbar__link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .navbar__link:hover {
+    text-decoration: underline;
+  }
+  

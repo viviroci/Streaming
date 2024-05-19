@@ -5,10 +5,15 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <Link to="/">Home</Link>
-      <Link to="/carrito">Carrito</Link>
+      <div className="navbar__left">
+        <Link to="/" className="navbar__link">Home</Link>
+      </div>
+      <div className="navbar__right">
+        <Link to="/carrito" className="navbar__link">Carrito</Link>
+      </div>
     </nav>
   );
 };
 
 export default Navbar;
+

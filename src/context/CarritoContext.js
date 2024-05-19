@@ -10,20 +10,34 @@ const CarritoProvider = ({ children }) => {
     setCarrito([...carrito, pelicula]);
   };
 
+  const eliminarDelCarrito = (id) => {
+    setCarrito(carrito.filter((item) => item.id !== id));
+  };
+
+  const vaciarCarrito = () => {
+    setCarrito([]);
+  };
+
+  const comprar = () => {
+    // Aquí podrías agregar la lógica para procesar la compra
+    console.log('Compra realizada:', carrito);
+    // Vaciar el carrito después de la compra
+    vaciarCarrito();
+    alert('Compra realizada con éxito!');
+  };
+
   const onRent = (pelicula) => {
-    // Lógica para alquilar una película
     console.log(`Alquilada: ${pelicula.title}`);
     agregarAlCarrito(pelicula);
   };
 
   const onPurchase = (pelicula) => {
-    // Lógica para comprar una película
     console.log(`Comprada: ${pelicula.title}`);
     agregarAlCarrito(pelicula);
   };
 
   return (
-    <CarritoContext.Provider value={{ carrito, agregarAlCarrito, onRent, onPurchase }}>
+    <CarritoContext.Provider value={{ carrito, agregarAlCarrito, eliminarDelCarrito, vaciarCarrito, comprar, onRent, onPurchase }}>
       {children}
     </CarritoContext.Provider>
   );

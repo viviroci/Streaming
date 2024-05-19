@@ -8,7 +8,7 @@ const movies = [
     reviews: 'Positive',
     duration: 148,
     image: 'link_to_inception_image',
-    trailer: 'link_to_inception_trailer',
+    trailer: 'https://www.youtube.com/watch?v=YoHD9XEInc0',
     stars: 5,
     category: 'Sci-Fi'
   },
@@ -21,7 +21,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 169,
     image: 'link_to_interstellar_image',
-    trailer: 'link_to_interstellar_trailer',
+    trailer: 'https://www.youtube.com/watch?v=zSWdZVtXT7E',
     stars: 4,
     category: 'Sci-Fi'
   },
@@ -34,7 +34,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 154,
     image: 'link_to_pulp_fiction_image',
-    trailer: 'link_to_pulp_fiction_trailer',
+    trailer: 'https://www.youtube.com/watch?v=s7EdQ4FqbhY',
     stars: 5,
     category: 'Crime'
   },
@@ -47,7 +47,7 @@ const movies = [
     reviews: 'Positive',
     duration: 162,
     image: 'link_to_avatar_image',
-    trailer: 'link_to_avatar_trailer',
+    trailer: 'https://www.youtube.com/watch?v=5PSNL1qE6VY',
     stars: 4,
     category: 'Fantasy'
   },
@@ -60,7 +60,7 @@ const movies = [
     reviews: 'Positive',
     duration: 136,
     image: 'link_to_matrix_image',
-    trailer: 'link_to_matrix_trailer',
+    trailer: 'https://www.youtube.com/watch?v=m8e-FF8MsqU',
     stars: 4,
     category: 'Sci-Fi'
   },
@@ -73,7 +73,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 175,
     image: 'link_to_godfather_image',
-    trailer: 'link_to_godfather_trailer',
+    trailer: 'https://www.youtube.com/watch?v=sY1S34973zA',
     stars: 5,
     category: 'Crime'
   },
@@ -86,7 +86,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 152,
     image: 'link_to_dark_knight_image',
-    trailer: 'link_to_dark_knight_trailer',
+    trailer: 'https://www.youtube.com/watch?v=EXeTwQWrcwY',
     stars: 5,
     category: 'Action'
   },
@@ -99,7 +99,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 139,
     image: 'link_to_fight_club_image',
-    trailer: 'link_to_fight_club_trailer',
+    trailer: 'https://www.youtube.com/watch?v=SUXWAEX2jlg',
     stars: 4,
     category: 'Drama'
   },
@@ -112,7 +112,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 142,
     image: 'link_to_forrest_gump_image',
-    trailer: 'link_to_forrest_gump_trailer',
+    trailer: 'https://www.youtube.com/watch?v=uPIEn0M8su0',
     stars: 4,
     category: 'Drama'
   },
@@ -125,7 +125,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 142,
     image: 'link_to_shawshank_image',
-    trailer: 'link_to_shawshank_trailer',
+    trailer: 'https://www.youtube.com/watch?v=NmzuHjWmXOc',
     stars: 4,
     category: 'Drama'
   },
@@ -138,7 +138,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 121,
     image: 'link_to_star_wars_image',
-    trailer: 'link_to_star_wars_trailer',
+    trailer: 'https://www.youtube.com/watch?v=1g3_CFmnU7k',
     stars: 4,
     category: 'Sci-Fi'
   },
@@ -151,7 +151,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 178,
     image: 'link_to_lord_of_the_rings_image',
-    trailer: 'link_to_lord_of_the_rings_trailer',
+    trailer: 'https://www.youtube.com/watch?v=Pki6jbSbXIY',
     stars: 3,
     category: 'Fantasy'
   },
@@ -164,7 +164,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 155,
     image: 'link_to_gladiator_image',
-    trailer: 'link_to_gladiator_trailer',
+    trailer: 'https://www.youtube.com/watch?v=owK1qxDselE',
     stars: 3,
     category: 'Drama'
   },
@@ -177,7 +177,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 195,
     image: 'link_to_titanic_image',
-    trailer: 'link_to_titanic_trailer',
+    trailer: 'https://www.youtube.com/watch?v=zCy5WQ9S4c0',
     stars: 2,
     category: 'Romance'
   },
@@ -190,7 +190,7 @@ const movies = [
     reviews: 'Very Positive',
     duration: 169,
     image: 'link_to_saving_private_ryan_image',
-    trailer: 'link_to_saving_private_ryan_trailer',
+    trailer: 'https://www.youtube.com/watch?v=zwhP5b4tD6g', 
     stars: 3,
     category: 'War'
   }

@@ -1,18 +1,21 @@
+
+/* MovieCard.css */
 .movie-card {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  width: 300px;
+  /* tus otros estilos */
 }
 
-.movie-card img {
-  max-width: 100%;
-  height: auto;
-}
-
-.movie-card a {
-  display: block;
+.movie-card iframe {
   margin-top: 10px;
-  color: blue;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.movie-card button {
+  margin: 5px 0;
+}
+
+.movie-card iframe {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 8px;
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Buscador.css';
 
 const Buscador = ({ onSearch, onSearchByCategory, onSearchByStars }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -18,18 +19,20 @@ const Buscador = ({ onSearch, onSearchByCategory, onSearchByStars }) => {
   };
 
   return (
-    <div>
+    <div className="buscador">
       <input
         type="text"
         placeholder="Buscar películas..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
+        className="buscador__input"
       />
-      <button onClick={handleSearch}>Buscar</button>
+      <button onClick={handleSearch} className="buscador__button">Buscar</button>
 
       <select
         value={category}
         onChange={(e) => setCategory(e.target.value)}
+        className="buscador__select--category"
       >
         <option value="">Selecciona una categoría</option>
         <option value="Sci-Fi">Sci-Fi</option>
@@ -40,11 +43,12 @@ const Buscador = ({ onSearch, onSearchByCategory, onSearchByStars }) => {
         <option value="Romance">Romance</option>
         <option value="War">War</option>
       </select>
-      <button onClick={handleCategorySearch}>Buscar por categoría</button>
+      <button onClick={handleCategorySearch} className="buscador__button--category">Buscar por categoría</button>
 
       <select
         value={stars}
         onChange={(e) => setStars(e.target.value)}
+        className="buscador__select--stars"
       >
         <option value="">Selecciona estrellas</option>
         <option value="5">5 Estrellas</option>
@@ -53,15 +57,9 @@ const Buscador = ({ onSearch, onSearchByCategory, onSearchByStars }) => {
         <option value="2">2 Estrellas</option>
         <option value="1">1 Estrella</option>
       </select>
-      <button onClick={handleStarsSearch}>Buscar por estrellas</button>
+      <button onClick={handleStarsSearch} className="buscador__button--stars">Buscar por estrellas</button>
     </div>
   );
 };
 
-export default Buscador;
-
-
-
-
-
-
+export default Buscador; // Asegúrate de exportar por defecto

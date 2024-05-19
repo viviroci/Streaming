@@ -1,3 +1,5 @@
+//home 
+
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Buscador from './Buscador';
@@ -43,6 +45,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-

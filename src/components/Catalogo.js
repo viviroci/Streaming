@@ -13,4 +13,3 @@ const Catalogo = ({ movies }) => {
 };
 
 export default Catalogo;
-
