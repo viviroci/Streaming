@@ -10,7 +10,12 @@ const movies = [
     image: 'link_to_inception_image',
     trailer: 'https://www.youtube.com/watch?v=YoHD9XEInc0',
     stars: 5,
-    category: 'Sci-Fi'
+    category: 'Sci-Fi',
+    price: {
+      rent: 10000,
+      purchase: 30000
+    },
+    imageBackground: 'inception_background.jpg'
   },
   {
     id: 2,
@@ -23,7 +28,12 @@ const movies = [
     image: 'link_to_interstellar_image',
     trailer: 'https://www.youtube.com/watch?v=zSWdZVtXT7E',
     stars: 4,
-    category: 'Sci-Fi'
+    category: 'Sci-Fi',
+    price: {
+      rent: 8000,
+      purchase: 25000
+    },
+    imageBackground: 'interstellar_background.jpg'
   },
   {
     id: 3,
@@ -36,7 +46,12 @@ const movies = [
     image: 'link_to_pulp_fiction_image',
     trailer: 'https://www.youtube.com/watch?v=s7EdQ4FqbhY',
     stars: 5,
-    category: 'Crime'
+    category: 'Crime',
+    price: {
+      rent: 10000,
+      purchase: 30000
+    },
+    imageBackground: 'pulp_fiction_background.jpg'
   },
   {
     id: 4,
@@ -49,7 +64,12 @@ const movies = [
     image: 'link_to_avatar_image',
     trailer: 'https://www.youtube.com/watch?v=5PSNL1qE6VY',
     stars: 4,
-    category: 'Fantasy'
+    category: 'Fantasy',
+    price: {
+      rent: 8000,
+      purchase: 25000
+    },
+    imageBackground: 'avatar_background.jpg'
   },
   {
     id: 5,
@@ -62,7 +82,12 @@ const movies = [
     image: 'link_to_matrix_image',
     trailer: 'https://www.youtube.com/watch?v=m8e-FF8MsqU',
     stars: 4,
-    category: 'Sci-Fi'
+    category: 'Sci-Fi',
+    price: {
+      rent: 8000,
+      purchase: 25000
+    },
+    imageBackground: 'matrix_background.jpg'
   },
   {
     id: 6,
@@ -75,7 +100,12 @@ const movies = [
     image: 'link_to_godfather_image',
     trailer: 'https://www.youtube.com/watch?v=sY1S34973zA',
     stars: 5,
-    category: 'Crime'
+    category: 'Crime',
+    price: {
+      rent: 10000,
+      purchase: 30000
+    },
+    imageBackground: 'godfather_background.jpg'
   },
   {
     id: 7,
@@ -88,7 +118,12 @@ const movies = [
     image: 'link_to_dark_knight_image',
     trailer: 'https://www.youtube.com/watch?v=EXeTwQWrcwY',
     stars: 5,
-    category: 'Action'
+    category: 'Action',
+    price: {
+      rent: 10000,
+      purchase: 30000
+    },
+    imageBackground: 'dark_knight_background.jpg'
   },
   {
     id: 8,
@@ -101,7 +136,12 @@ const movies = [
     image: 'link_to_fight_club_image',
     trailer: 'https://www.youtube.com/watch?v=SUXWAEX2jlg',
     stars: 4,
-    category: 'Drama'
+    category: 'Drama',
+    price: {
+      rent: 8000,
+      purchase: 25000
+    },
+    imageBackground: 'fight_club_background.jpg'
   },
   {
     id: 9,
@@ -114,7 +154,12 @@ const movies = [
     image: 'link_to_forrest_gump_image',
     trailer: 'https://www.youtube.com/watch?v=uPIEn0M8su0',
     stars: 4,
-    category: 'Drama'
+    category: 'Drama',
+    price: {
+      rent: 8000,
+      purchase: 25000
+    },
+    imageBackground: 'forrest_gump_background.jpg'
   },
   {
     id: 10,
@@ -127,7 +172,12 @@ const movies = [
     image: 'link_to_shawshank_image',
     trailer: 'https://www.youtube.com/watch?v=NmzuHjWmXOc',
     stars: 4,
-    category: 'Drama'
+    category: 'Drama',
+    price: {
+      rent: 8000,
+      purchase: 25000
+    },
+    imageBackground: 'shawshank_background.jpg'
   },
   {
     id: 11,
@@ -140,7 +190,12 @@ const movies = [
     image: 'link_to_star_wars_image',
     trailer: 'https://www.youtube.com/watch?v=1g3_CFmnU7k',
     stars: 4,
-    category: 'Sci-Fi'
+    category: 'Sci-Fi',
+    price: {
+      rent: 8000,
+      purchase: 25000
+    },
+    imageBackground: 'star_wars_background.jpg'
   },
   {
     id: 12,
@@ -153,7 +208,12 @@ const movies = [
     image: 'link_to_lord_of_the_rings_image',
     trailer: 'https://www.youtube.com/watch?v=Pki6jbSbXIY',
     stars: 3,
-    category: 'Fantasy'
+    category: 'Fantasy',
+    price: {
+      rent: 5000,
+      purchase: 20000
+    },
+    imageBackground: 'The Lord of the Rings The Fellowship of the Ring_background.jpg'
   },
   {
     id: 13,
@@ -166,7 +226,12 @@ const movies = [
     image: 'link_to_gladiator_image',
     trailer: 'https://www.youtube.com/watch?v=owK1qxDselE',
     stars: 3,
-    category: 'Drama'
+    category: 'Drama',
+    price: {
+      rent: 5000,
+      purchase: 20000
+    },
+    imageBackground: 'Gladiator_background.jpg'     
   },
   {
     id: 14,
@@ -179,7 +244,12 @@ const movies = [
     image: 'link_to_titanic_image',
     trailer: 'https://www.youtube.com/watch?v=zCy5WQ9S4c0',
     stars: 2,
-    category: 'Romance'
+    category: 'Romance',
+    price: {
+      rent: 3000,
+      purchase: 15000
+    },
+    imageBackground: 'Titanic_background.jpg'
   },
   {
     id: 15,
@@ -192,8 +262,13 @@ const movies = [
     image: 'link_to_saving_private_ryan_image',
     trailer: 'https://www.youtube.com/watch?v=zwhP5b4tD6g', 
     stars: 3,
-    category: 'War'
-  }
+    category: 'War',
+    price: {
+      rent: 5000,
+      purchase: 20000
+    },
+    imageBackground: 'Saving Private Ryan_background.jpg'
+  },
 ];
 
 export default movies;

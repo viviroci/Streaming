@@ -18,33 +18,31 @@ const MovieCard = ({ pelicula }) => {
 
   return (
     <div className="movie-card" style={{ backgroundImage: `url(${pelicula.image})` }}>
-      <div className="movie-card-overlay">
-        <div className="movie-card-content">
-          <h2>{pelicula.title}</h2>
-          <p>{pelicula.description}</p>
-          <p>Director: {pelicula.director}</p>
-          <p>Año: {pelicula.year}</p>
-          <p>Críticas: {pelicula.reviews}</p>
-          <p>Duración: {pelicula.duration} minutos</p>
-          <p>Categoría: {pelicula.category}</p>
-          <p>Estrellas: {pelicula.stars}</p>
-          <button onClick={() => onRent(pelicula)}>Alquilar</button>
-          <button onClick={() => onPurchase(pelicula)}>Comprar</button>
-          <button onClick={() => setShowTrailer(!showTrailer)}>
-            {showTrailer ? 'Ocultar Tráiler' : 'Ver Tráiler'}
-          </button>
-          {showTrailer && (
-            <iframe
-              width="560"
-              height="315"
-              src={getYouTubeEmbedUrl(pelicula.trailer)}
-              title={pelicula.title}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          )}
-        </div>
+      <div className="movie-card-content">
+        <h2>{pelicula.title}</h2>
+        <p>{pelicula.description}</p>
+        <p>Director: {pelicula.director}</p>
+        <p>Año: {pelicula.year}</p>
+        <p>Críticas: {pelicula.reviews}</p>
+        <p>Duración: {pelicula.duration} minutos</p>
+        <p>Categoría: {pelicula.category}</p>
+        <p>Estrellas: {pelicula.stars}</p>
+        <button onClick={() => onRent(pelicula)}>Alquilar</button>
+        <button onClick={() => onPurchase(pelicula)}>Comprar</button>
+        <button onClick={() => setShowTrailer(!showTrailer)}>
+          {showTrailer ? 'Ocultar Tráiler' : 'Ver Tráiler'}
+        </button>
+        {showTrailer && (
+          <iframe
+            width="560"
+            height="315"
+            src={getYouTubeEmbedUrl(pelicula.trailer)}
+            title={pelicula.title}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        )}
       </div>
     </div>
   );
