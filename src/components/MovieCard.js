@@ -1,4 +1,3 @@
-// MovieCard.js
 import React, { useContext, useState } from 'react';
 import { CarritoContext } from '../context/CarritoContext';
 import './MovieCard.css';
@@ -17,8 +16,9 @@ const MovieCard = ({ pelicula }) => {
   };
 
   return (
-    <div className="movie-card" style={{ backgroundImage: `url(${pelicula.image})` }}>
+    <div className="movie-card">
       <div className="movie-card-content">
+        <img src={pelicula.image} alt={pelicula.title} className="producto-imagen" />
         <h2>{pelicula.title}</h2>
         <p>{pelicula.description}</p>
         <p>Director: {pelicula.director}</p>

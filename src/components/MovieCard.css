@@ -1,21 +1,53 @@
-
-/* MovieCard.css */
+/* Estilos para la cartelera de películas */
 .movie-card {
-  /* tus otros estilos */
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: rgb(214, 224, 184);
+  color: #333; /* Color de texto */
+  width: 250px; /* Ancho de la tarjeta */
+  border: 1px solid #ddd1a8;
+  border-radius: 4px;
+  padding: 10px; /* Espacio interior */
+  margin-bottom: 20px; /* Espacio entre tarjetas */
+}
+
+.producto-imagen {
+  width: 100%; /* Ancho completo de la imagen */
+  height: 20%; /* Altura al 20% de la tarjeta */
+  border-radius: 4px;
+  object-fit: cover; /* Ajustar el tamaño de la imagen de fondo para cubrir el área */
+  margin-bottom: 10px; /* Espacio entre la imagen y el contenido */
+}
+
+.movie-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinear contenido a la izquierda */
+  justify-content: space-between; /* Alinear contenido arriba y abajo con espacio entre ellos */
+  background-repeat: no-repeat; /* No repetir la imagen de fondo */
+  background-size: cover; /* Ajustar el tamaño de la imagen de fondo */
 }
 
 .movie-card iframe {
-  margin-top: 10px;
-  max-width: 100%;
+  width: 100%; /* Ancho completo del iframe */
+  height: 200px; /* Altura fija */
   border-radius: 8px;
 }
 
 .movie-card button {
-  margin: 5px 0;
+  margin-top: 10px; /* Espacio entre el iframe y los botones */
 }
 
-.movie-card iframe {
-  margin-top: 10px;
-  max-width: 100%;
-  border-radius: 8px;
+/* Estilos para el texto */
+.movie-card h2 {
+  font-size: 24px; /* Tamaño del título */
+  line-height: 1.2; /* Espaciado entre líneas */
+  margin-top: 10px; /* Espacio entre imagen y título */
+  text-transform: uppercase; /* Convertir texto a mayúsculas */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.movie-card p {
+  font-size: 18px; /* Tamaño del texto */
+  line-height: 1.4; /* Espaciado entre líneas */
+  margin-bottom: 5px; /* Espacio entre párrafos */
 }

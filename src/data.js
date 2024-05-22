@@ -1,3 +1,19 @@
+import avatarImage from './Imagenes/Avatar.jpg';
+import fightClubImage from './Imagenes/Fight Club.jpg';
+import forrestGumpImage from './Imagenes/Forrest Gump.jpg';
+import gladiatorImage from './Imagenes/Gladiator.jpg';
+import inceptionImage from './Imagenes/Inception.jpg';
+import interstellarImage from './Imagenes/Interstellar.jpg';
+import pulpFictionImage from './Imagenes/Pulp Fiction.jpg';
+import savingPrivateRyanImage from './Imagenes/Saving Private Ryan.jpg';
+import starWarsImage from './Imagenes/StarWarsEpisodeIVANewHope.jpg'; 
+import theDarkKnightImage from './Imagenes/The Dark Knight.jpg';
+import theGodfatherImage from './Imagenes/The Godfather.jpg';
+import theLordOfTheRingsImage from './Imagenes/The Lord of the Rings The Fellowship of the Ring.jpg';
+import theMatrixImage from './Imagenes/The Matrix.jpg';
+import titanicImage from './Imagenes/Titanic.jpg';
+import shawshankImage from './Imagenes/The Shawshank Redemption.jpg';
+
 const movies = [
   {
     id: 1,
@@ -7,7 +23,6 @@ const movies = [
     year: 2010,
     reviews: 'Positive',
     duration: 148,
-    image: 'link_to_inception_image',
     trailer: 'https://www.youtube.com/watch?v=YoHD9XEInc0',
     stars: 5,
     category: 'Sci-Fi',
@@ -15,6 +30,7 @@ const movies = [
       rent: 10000,
       purchase: 30000
     },
+    image: inceptionImage,
     imageBackground: 'inception_background.jpg'
   },
   {
@@ -25,7 +41,6 @@ const movies = [
     year: 2014,
     reviews: 'Very Positive',
     duration: 169,
-    image: 'link_to_interstellar_image',
     trailer: 'https://www.youtube.com/watch?v=zSWdZVtXT7E',
     stars: 4,
     category: 'Sci-Fi',
@@ -33,6 +48,7 @@ const movies = [
       rent: 8000,
       purchase: 25000
     },
+    image: interstellarImage,
     imageBackground: 'interstellar_background.jpg'
   },
   {
@@ -43,7 +59,6 @@ const movies = [
     year: 1994,
     reviews: 'Very Positive',
     duration: 154,
-    image: 'link_to_pulp_fiction_image',
     trailer: 'https://www.youtube.com/watch?v=s7EdQ4FqbhY',
     stars: 5,
     category: 'Crime',
@@ -51,6 +66,7 @@ const movies = [
       rent: 10000,
       purchase: 30000
     },
+    image: pulpFictionImage,
     imageBackground: 'pulp_fiction_background.jpg'
   },
   {
@@ -61,7 +77,6 @@ const movies = [
     year: 2009,
     reviews: 'Positive',
     duration: 162,
-    image: 'link_to_avatar_image',
     trailer: 'https://www.youtube.com/watch?v=5PSNL1qE6VY',
     stars: 4,
     category: 'Fantasy',
@@ -69,6 +84,7 @@ const movies = [
       rent: 8000,
       purchase: 25000
     },
+    image: avatarImage,
     imageBackground: 'avatar_background.jpg'
   },
   {
@@ -79,7 +95,6 @@ const movies = [
     year: 1999,
     reviews: 'Positive',
     duration: 136,
-    image: 'link_to_matrix_image',
     trailer: 'https://www.youtube.com/watch?v=m8e-FF8MsqU',
     stars: 4,
     category: 'Sci-Fi',
@@ -87,6 +102,7 @@ const movies = [
       rent: 8000,
       purchase: 25000
     },
+    image: theMatrixImage,
     imageBackground: 'matrix_background.jpg'
   },
   {
@@ -97,7 +113,6 @@ const movies = [
     year: 1972,
     reviews: 'Very Positive',
     duration: 175,
-    image: 'link_to_godfather_image',
     trailer: 'https://www.youtube.com/watch?v=sY1S34973zA',
     stars: 5,
     category: 'Crime',
@@ -105,6 +120,7 @@ const movies = [
       rent: 10000,
       purchase: 30000
     },
+    image: theGodfatherImage,
     imageBackground: 'godfather_background.jpg'
   },
   {
@@ -115,7 +131,6 @@ const movies = [
     year: 2008,
     reviews: 'Very Positive',
     duration: 152,
-    image: 'link_to_dark_knight_image',
     trailer: 'https://www.youtube.com/watch?v=EXeTwQWrcwY',
     stars: 5,
     category: 'Action',
@@ -123,6 +138,7 @@ const movies = [
       rent: 10000,
       purchase: 30000
     },
+    image: theDarkKnightImage,
     imageBackground: 'dark_knight_background.jpg'
   },
   {
@@ -133,7 +149,6 @@ const movies = [
     year: 1999,
     reviews: 'Very Positive',
     duration: 139,
-    image: 'link_to_fight_club_image',
     trailer: 'https://www.youtube.com/watch?v=SUXWAEX2jlg',
     stars: 4,
     category: 'Drama',
@@ -141,6 +156,7 @@ const movies = [
       rent: 8000,
       purchase: 25000
     },
+    image: fightClubImage,
     imageBackground: 'fight_club_background.jpg'
   },
   {
@@ -151,7 +167,6 @@ const movies = [
     year: 1994,
     reviews: 'Very Positive',
     duration: 142,
-    image: 'link_to_forrest_gump_image',
     trailer: 'https://www.youtube.com/watch?v=uPIEn0M8su0',
     stars: 4,
     category: 'Drama',
@@ -159,6 +174,7 @@ const movies = [
       rent: 8000,
       purchase: 25000
     },
+    image: forrestGumpImage,
     imageBackground: 'forrest_gump_background.jpg'
   },
   {
@@ -169,7 +185,6 @@ const movies = [
     year: 1994,
     reviews: 'Very Positive',
     duration: 142,
-    image: 'link_to_shawshank_image',
     trailer: 'https://www.youtube.com/watch?v=NmzuHjWmXOc',
     stars: 4,
     category: 'Drama',
@@ -177,6 +192,7 @@ const movies = [
       rent: 8000,
       purchase: 25000
     },
+    image: shawshankImage,
     imageBackground: 'shawshank_background.jpg'
   },
   {
@@ -187,7 +203,6 @@ const movies = [
     year: 1977,
     reviews: 'Very Positive',
     duration: 121,
-    image: 'link_to_star_wars_image',
     trailer: 'https://www.youtube.com/watch?v=1g3_CFmnU7k',
     stars: 4,
     category: 'Sci-Fi',
@@ -195,6 +210,7 @@ const movies = [
       rent: 8000,
       purchase: 25000
     },
+    image: starWarsImage,
     imageBackground: 'star_wars_background.jpg'
   },
   {
@@ -205,7 +221,6 @@ const movies = [
     year: 2001,
     reviews: 'Very Positive',
     duration: 178,
-    image: 'link_to_lord_of_the_rings_image',
     trailer: 'https://www.youtube.com/watch?v=Pki6jbSbXIY',
     stars: 3,
     category: 'Fantasy',
@@ -213,7 +228,8 @@ const movies = [
       rent: 5000,
       purchase: 20000
     },
-    imageBackground: 'The Lord of the Rings The Fellowship of the Ring_background.jpg'
+    image: theLordOfTheRingsImage,
+    imageBackground: 'the_lord_of_the_rings_background.jpg'
   },
   {
     id: 13,
@@ -223,7 +239,6 @@ const movies = [
     year: 2000,
     reviews: 'Very Positive',
     duration: 155,
-    image: 'link_to_gladiator_image',
     trailer: 'https://www.youtube.com/watch?v=owK1qxDselE',
     stars: 3,
     category: 'Drama',
@@ -231,7 +246,8 @@ const movies = [
       rent: 5000,
       purchase: 20000
     },
-    imageBackground: 'Gladiator_background.jpg'     
+    image: gladiatorImage,
+    imageBackground: 'gladiator_background.jpg'
   },
   {
     id: 14,
@@ -241,7 +257,6 @@ const movies = [
     year: 1997,
     reviews: 'Very Positive',
     duration: 195,
-    image: 'link_to_titanic_image',
     trailer: 'https://www.youtube.com/watch?v=zCy5WQ9S4c0',
     stars: 2,
     category: 'Romance',
@@ -249,8 +264,8 @@ const movies = [
       rent: 3000,
       purchase: 15000
     },
-    imageBackground: 'Titanic_background.jpg'
-  },
+    image: titanicImage,
+    imageBackground: 'Titanic_background.jpg'  },
   {
     id: 15,
     title: 'Saving Private Ryan',
@@ -259,15 +274,16 @@ const movies = [
     year: 1998,
     reviews: 'Very Positive',
     duration: 169,
-    image: 'link_to_saving_private_ryan_image',
-    trailer: 'https://www.youtube.com/watch?v=zwhP5b4tD6g', 
-    stars: 3,
+    trailer: 'https://www.youtube.com/watch?v=zCy5WQ9S4c',
+    stars: 5,
     category: 'War',
     price: {
-      rent: 5000,
-      purchase: 20000
+      rent: 12000,
+      purchase: 35000
     },
-    imageBackground: 'Saving Private Ryan_background.jpg'
+    image: savingPrivateRyanImage,
+    imageBackground: 'saving_private_ryan_background.jpg'
+  
   },
 ];
 

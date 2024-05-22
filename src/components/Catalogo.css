@@ -1,21 +1,21 @@
 .catalogo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .movie {
-    flex: 1 1 30%; /* Toma aproximadamente el 30% del contenedor */
-    max-width: 30%; /* Limita el ancho máximo al 30% */
-    margin: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .movie img {
-    max-width: 100%;
-    height: auto;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie {
+  flex: 1 1 30%; /* Toma aproximadamente el 30% del contenedor */
+  max-width: 30%; /* Limita el ancho máximo al 30% */
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(5, 245, 17, 0.1);
+  text-align: center;
+}
+
+.movie img {
+  max-width: 100%;
+  height: auto;
+}
+
